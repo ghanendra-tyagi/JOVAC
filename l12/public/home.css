@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #b5fffd;
+    height: 100vh;
+}
+.main_container{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 7px;
+}
+.container {
+    background: #9ef2ff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* border: 5px solid rgb(0, 183, 255); */
+}
+
+.container img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    object-position: top;
+}

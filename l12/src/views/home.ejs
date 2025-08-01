@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= tittle %>
+    </title>
+    <link rel="stylesheet" href="/home.css">
+</head>
+
+<body>
+
+    <a href="/register">Register new user</a>
+    <div class="main_container">
+        <% users.forEach(elem=> { %>
+            <div class="container">
+                <img src="<%= elem.image %>" alt="image" />
+                <h2>
+                    <%= elem.name %>
+                </h2>
+            </div>
+            <% }); %>
+</body>
+
+</html>

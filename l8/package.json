@@ -1,0 +1,17 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "main": "maths.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hello"
+  ],
+  "author": "tyagi ji",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "figlet": "^1.8.2"
+  }
+}
