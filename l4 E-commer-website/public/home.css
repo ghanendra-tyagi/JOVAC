@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+nav {
+    text-decoration: none;
+    color: white;
+    border: 2px solid black;
+    box-shadow: inset;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
